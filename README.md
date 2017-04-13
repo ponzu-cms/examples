@@ -12,6 +12,9 @@ $ ponzu --devhttps run
 ```
   - This generates self-signed certificates and starts up a TLS server, which is required by HTTP/2.
 
+### [Docker Example](https://github.com/ponzu-cms/examples/tree/master/docker)
+The Docker example includes an nginx container which proxies `/admin` and `/api` into the ponzu container.
+
 ---
 
 

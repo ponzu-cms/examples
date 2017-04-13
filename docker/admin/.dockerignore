@@ -1,0 +1,8 @@
+# These directories should not be copied over from the local machine
+uploads
+search
+system.db
+analytics.db
+
+# ponzu-server should be built from each startup
+ponzu-server
