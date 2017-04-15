@@ -5,7 +5,7 @@ This docker-compose contains 2 docker containers:
 1. web - a basic nginx front end, with Javascript ajax accessing the /api
 2. admin - an example ponzu container
 
-The admin contain is based on the official Ponzu Docker image **NEEDS LINK**
+The admin contain is based on the official [Ponzu Docker image](https://hub.docker.com/r/ponzu/ponzu/)
 
 ### Running the example
 
@@ -28,6 +28,7 @@ docker-compose stop
 ```
 
 ### Web Container
+
 This nginx web container takes any incoming requests and if it matches `/api*` or `/admin*` it will then route it to the exposed ports :8080 on the ponzu container
 
 ### Ponzu - Admin Container
