@@ -1,4 +1,4 @@
-FROM krismeister/ponzu
+FROM ponzu/ponzu
 
 ENV PONZU_SHARE /ponzu-share
 
