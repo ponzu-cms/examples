@@ -8,7 +8,7 @@ News includes a demo featuring a news/publication with articles and authors as c
 
 The types implement `item.Pushable` and `db.Searchable` to demonstrate the HTTP/2 Server Push and full-text search support. To test the HTTP/2 Server Push feature, you must run ponzu with the `--devhttps` flag like so:
 ```bash
-$ ponzu --devhttps run
+$ ponzu run --dev-https
 ```
   - This generates self-signed certificates and starts up a TLS server, which is required by HTTP/2.
 
