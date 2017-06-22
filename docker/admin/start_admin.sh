@@ -15,7 +15,7 @@ if [ "$1" = "start" ]; then
     cd $PROJECT_FOLDER && ponzu build
 
     echo "starting ponzu admin and api"
-    cd $PROJECT_FOLDER && ponzu -port=8080 --https run admin,api &>> $PONZU_SHARE/server.log
+    cd $PROJECT_FOLDER && ponzu run --port=8080 --https admin,api &>> $PONZU_SHARE/server.log
 
     # this line starts and pipes to log, then continues terminal.
     # cd $PROJECT_FOLDER && nohup ponzu -port=8080 --https run admin,api &> $PONZU_SHARE/server.log &
