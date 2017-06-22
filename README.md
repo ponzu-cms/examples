@@ -6,7 +6,7 @@ Examples of full Ponzu systems, scripts, data files, and more to demonstrate and
 ### [News Article Demo](https://github.com/ponzu-cms/examples/tree/master/news)
 News includes a demo featuring a news/publication with articles and authors as content types.
 
-The types implement `item.Pushable` and `db.Searchable` to demonstrate the HTTP/2 Server Push and full-text search support. To test the HTTP/2 Server Push feature, you must run ponzu with the `--devhttps` flag like so:
+The types implement `item.Pushable` and `db.Searchable` to demonstrate the HTTP/2 Server Push and full-text search support. To test the HTTP/2 Server Push feature, you must run ponzu with the `--dev-https` flag like so:
 ```bash
 $ ponzu run --dev-https
 ```
