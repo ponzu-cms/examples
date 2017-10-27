@@ -14,7 +14,7 @@ The admin contain is based on the official [Ponzu Docker image](https://hub.dock
 docker-compose build
 
 #start the containers in the background
-docker-compose start -d
+docker-compose up -d
 ```
 
 #### Then follow these steps:
